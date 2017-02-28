@@ -6,6 +6,8 @@
             "email": "konkon1234@gmail.com"
         }
     ],
+    "description": "session bridge for laravel5 to native php script.",
+    "license": "MIT",
     "require": {
         "illuminate/session": "~5.4",
         "illuminate/database": "~5.4",
