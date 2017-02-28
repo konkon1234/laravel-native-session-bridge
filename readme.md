@@ -1,8 +1,13 @@
 # laravel native session bridge
 
-This library allows for bidirectional reading and writing of the Laravel application of Session management using Database and the $ _SESSION object of Native php.
+This library allows for bidirectional reading and writing of the Laravel application of Session management using Mysql Database and the $_SESSION object of Native php.
 
-## how to use
+## Support Version
+
+* php 5.6 or higher
+* Laravel 5.3, 5.4
+
+## Usage
 
 set session handler.
 
@@ -38,3 +43,7 @@ echo $_SESSION['from_laravel'];
 $_SESSION['from_native'] = 'message from native';
 
 ```
+
+## Lisence
+
+MIT Lisence
