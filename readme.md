@@ -35,14 +35,20 @@ session_set_save_handler($handler, false); // require register_shutdown is false
 
 session_start();
 
-// get session value from laravel
+// You can get the value set in Laravel from $ _SESSION
+// $request->session()->put('from_laravel', 'message from laravel');
 echo $_SESSION['from_laravel'];
 
-// set session value.
-// $request->session()->get('from_native') // message from native
+// Once you have set a value for the native session object, you can retrieve it with Laravel
+// $request->session()->get('from_native');
 $_SESSION['from_native'] = 'message from native';
 
+
 ```
+
+## How to install
+
+composer require konkon1234/laravel-native-session-bridge
 
 ## Lisence
 
