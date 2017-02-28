@@ -1,0 +1,19 @@
+{
+    "name": "konkon1234/laravel-native-session-bridge",
+    "authors": [
+        {
+            "name": "Kouji Nomura",
+            "email": "konkon1234@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/session": "~5.4",
+        "illuminate/database": "~5.4",
+        "illuminate/encryption": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Konkon1234\\LaravelNativeSessionBridge\\": "src/"
+        }
+    }
+}
