@@ -1,5 +1,6 @@
 {
     "name": "konkon1234/laravel-native-session-bridge",
+    "type": "library",
     "authors": [
         {
             "name": "Kouji Nomura",
